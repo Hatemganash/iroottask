@@ -1,0 +1,210 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1ga-A0-0xM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"You don't have Account ?\"; ObjectID = \"1ga-A0-0xM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس لديك حساب ؟"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "You don't have Account ?"
+          }
+        }
+      }
+    },
+    "7sJ-Qb-qGC.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Login\"; ObjectID = \"7sJ-Qb-qGC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الدخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        }
+      }
+    },
+    "DLp-V1-8CL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Select Type\"; ObjectID = \"DLp-V1-8CL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر نوع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Select Type"
+          }
+        }
+      }
+    },
+    "eyE-1J-Gxs.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter Your Email\"; ObjectID = \"eyE-1J-Gxs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل البريد الالكتروني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter Your Email"
+          }
+        }
+      }
+    },
+    "f8D-J0-sPD.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Type\"; ObjectID = \"f8D-J0-sPD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النوع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Type"
+          }
+        }
+      }
+    },
+    "FQF-JI-UnR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Login\"; ObjectID = \"FQF-JI-UnR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الدخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        }
+      }
+    },
+    "GOq-Fw-D6x.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, and a number.\"; ObjectID = \"GOq-Fw-D6x\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل، وتحتوي على حرف كبير وحرف صغير ورقم."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, and a number."
+          }
+        }
+      }
+    },
+    "kmt-Ci-3qO.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"AR\"; ObjectID = \"kmt-Ci-3qO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "AR"
+          }
+        }
+      }
+    },
+    "kmt-Ci-3qO.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"kmt-Ci-3qO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "nI8-UI-lfv.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Sign Up\"; ObjectID = \"nI8-UI-lfv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التسجيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign Up"
+          }
+        }
+      }
+    },
+    "PV1-lL-PLz.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Enter Valid Email\"; ObjectID = \"PV1-lL-PLz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل بريد الكتروني صالح"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter Valid Email"
+          }
+        }
+      }
+    },
+    "xAn-d3-fDa.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter Password\"; ObjectID = \"xAn-d3-fDa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل كلمه المرور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter Password"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

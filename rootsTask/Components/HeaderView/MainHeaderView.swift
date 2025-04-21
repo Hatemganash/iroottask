@@ -9,6 +9,7 @@ import UIKit
 
 class MainHeaderView: UIView {
   
+    @IBOutlet weak var optionButton: UIButton!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -24,7 +25,13 @@ class MainHeaderView: UIView {
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         addSubview(view)
+        setupOptionButton()
        
+    }
+    
+    private func setupOptionButton() {
+        optionButton.accessibilityLabel = "options"
+        optionButton.showsMenuAsPrimaryAction = true
     }
    
 }

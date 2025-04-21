@@ -1,0 +1,48 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "40g-HH-s1a.title" : {
+      "comment" : "Class = \"UICommand\"; title = \"Item 1\"; ObjectID = \"40g-HH-s1a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item 1"
+          }
+        }
+      }
+    },
+    "fRO-oA-fmM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Welcome Hatem\"; ObjectID = \"fRO-oA-fmM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبا حاتم "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Welcome Hatem"
+          }
+        }
+      }
+    },
+    "IHZ-YZ-xTQ.title" : {
+      "comment" : "Class = \"UICommand\"; title = \"Item 2\"; ObjectID = \"IHZ-YZ-xTQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item 2"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

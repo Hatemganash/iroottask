@@ -15,11 +15,13 @@
 					<string>Default Configuration</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+       <key>NSLocationWhenInUseUsageDescription</key>
+       <string>This app needs your location to show it on the map.</string>
+       <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+       <string>This app uses your location to improve your experience.</string>
 </dict>
 </plist>

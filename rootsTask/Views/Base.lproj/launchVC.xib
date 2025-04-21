@@ -14,16 +14,19 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyP-GN-59c">
-                    <rect key="frame" x="161" y="404" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyP-GN-59c">
+                    <rect key="frame" x="148.33333333333334" y="412.33333333333331" width="96.666666666666657" height="27.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="KqO-TT-dka"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="wyP-GN-59c" firstAttribute="centerX" secondItem="JZH-ez-51m" secondAttribute="centerX" id="elw-sq-f52"/>
+                <constraint firstItem="wyP-GN-59c" firstAttribute="centerY" secondItem="JZH-ez-51m" secondAttribute="centerY" id="j5o-6M-o4t"/>
+            </constraints>
             <point key="canvasLocation" x="95" y="-42"/>
         </view>
     </objects>
