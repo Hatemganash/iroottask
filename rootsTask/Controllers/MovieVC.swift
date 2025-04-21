@@ -5,8 +5,8 @@
 //  Created by Hatem on 21/04/2025.
 //
 
-import Alamofire
 import UIKit
+import Alamofire
 
 class MovieVC: BaseVC {
 
