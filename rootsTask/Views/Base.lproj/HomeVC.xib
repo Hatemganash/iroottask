@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="rootsTask" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionHeightConstraint" destination="eV4-QA-jU6" id="aC1-l8-dLv"/>
+                <outlet property="dataCollectionView" destination="BxY-qu-f31" id="1qe-WS-4fs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQe-Yo-A4F">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="joa-4G-dpK">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="600"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="BxY-qu-f31">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="600"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="600" id="eV4-QA-jU6"/>
+                                    </constraints>
+                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SSI-3S-n2K">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                </collectionView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="joa-4G-dpK" firstAttribute="leading" secondItem="HQe-Yo-A4F" secondAttribute="leading" id="BoD-TA-okP"/>
+                        <constraint firstAttribute="bottom" secondItem="joa-4G-dpK" secondAttribute="bottom" id="P0o-Pc-sBC"/>
+                        <constraint firstAttribute="trailing" secondItem="joa-4G-dpK" secondAttribute="trailing" id="aD6-10-WrG"/>
+                        <constraint firstItem="joa-4G-dpK" firstAttribute="top" secondItem="HQe-Yo-A4F" secondAttribute="top" id="zFi-Hd-4O0"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="HQe-Yo-A4F" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="5Xy-ck-BAQ"/>
+                <constraint firstItem="joa-4G-dpK" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Wih-2I-dKI"/>
+                <constraint firstItem="HQe-Yo-A4F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fqh-d9-go9"/>
+                <constraint firstItem="HQe-Yo-A4F" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="s4v-5k-gEA"/>
+                <constraint firstAttribute="bottom" secondItem="HQe-Yo-A4F" secondAttribute="bottom" id="t4x-WU-f0r"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="54.198473282442748" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
