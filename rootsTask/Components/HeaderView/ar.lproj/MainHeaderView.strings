@@ -1,0 +1,9 @@
+
+/* Class = "UICommand"; title = "Item 1"; ObjectID = "40g-HH-s1a"; */
+"40g-HH-s1a.title" = "Item 1";
+
+/* Class = "UICommand"; title = "Item 2"; ObjectID = "IHZ-YZ-xTQ"; */
+"IHZ-YZ-xTQ.title" = "Item 2";
+
+/* Class = "UILabel"; text = "Welcome Hatem"; ObjectID = "fRO-oA-fmM"; */
+"fRO-oA-fmM.text" = "مرحبا حاتم";

@@ -34,7 +34,7 @@ class SignUpVC: BaseVC {
         validateFields()
     }
     @IBAction func loginAction(_ sender: Any) {
-        self.navigateWithXib(to: LoginVC.self)
+        self.navigateWithXibAsRoot(to: LoginVC.self)
     }
 
 }

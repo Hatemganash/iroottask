@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "16c-rd-icv"; */
+"16c-rd-icv.normalTitle" = "التسجيل";
+
+/* Class = "UITextField"; placeholder = "Enter Your Full name"; ObjectID = "Cz5-mb-uYd"; */
+"Cz5-mb-uYd.placeholder" = "ادخل الاسم بالكامل";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "G5R-mw-gWJ"; */
+"G5R-mw-gWJ.text" = "التسجيل";
+
+/* Class = "UILabel"; text = "Enter Valid Username"; ObjectID = "HT4-sf-RwB"; */
+"HT4-sf-RwB.text" = "ادخل اسم مستخدم صالح";
+
+/* Class = "UILabel"; text = "the phone number must be at least 10 numbers"; ObjectID = "LT2-CE-j58"; */
+"LT2-CE-j58.text" = "رقم الهاتف يجب ان يكون اكثر من ١٠ ارقام";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "LzB-eb-VWg"; */
+"LzB-eb-VWg.placeholder" = "ادخل كلمه المرور";
+
+/* Class = "UILabel"; text = "Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, and a number."; ObjectID = "OUm-Yk-bRj"; */
+"OUm-Yk-bRj.text" = "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل، وتحتوي على حرف كبير وحرف صغير ورقم.";
+
+/* Class = "UITextField"; placeholder = "Enter Your Email"; ObjectID = "S3A-bn-48Z"; */
+"S3A-bn-48Z.placeholder" = "ادخل البريد الالكتروني";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "U0E-GM-zpL"; */
+"U0E-GM-zpL.normalTitle" = "الدخول";
+
+/* Class = "UILabel"; text = "Enter Valid Email"; ObjectID = "ckN-hk-51D"; */
+"ckN-hk-51D.text" = "ادخل بريد الكتروني صالح";
+
+/* Class = "UILabel"; text = "Enter Valid Name"; ObjectID = "dq8-bv-m9Q"; */
+"dq8-bv-m9Q.text" = "ادخل اسم صالح";
+
+/* Class = "UITextField"; placeholder = "Enter username"; ObjectID = "g6A-rO-xDm"; */
+"g6A-rO-xDm.placeholder" = "ادخل اسم المستخدم";
+
+/* Class = "UITextField"; placeholder = "Enter Your Phone"; ObjectID = "lly-fb-wES"; */
+"lly-fb-wES.placeholder" = "ادخل رقم الهاتف";
+
+/* Class = "UILabel"; text = "Already have an Account ?"; ObjectID = "vHj-Ns-Cdd"; */
+"vHj-Ns-Cdd.text" = "هل لديك حساب بالفعل؟";

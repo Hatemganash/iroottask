@@ -84,7 +84,7 @@ extension TabbarVC {
         ) { [weak self] _ in
             guard let self = self else { return }
 
-            self.changeLanguage()
+            self.changeLangDirect()
         }
 
         let logoutAction = UIAction(
@@ -100,6 +100,16 @@ extension TabbarVC {
 }
 
 extension TabbarVC {
+    func changeLangDirect(){
+        let newLang = Language.currentLanguage().contains(Language.Languages.ar) ? Language.Languages.en : Language.Languages.ar
+        Language.setAppLanguage(lang: newLang)
+
+        let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+        let window = sceneDelegate?.window
+        let tabbarVC = TabbarVC(nibName: "TabbarVC", bundle: nil)
+        window?.rootViewController = tabbarVC
+        window?.makeKeyAndVisible()
+    }
     @objc
     func changeLanguage() {
         let current =

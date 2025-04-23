@@ -33,10 +33,10 @@ class LoginVC: BaseVC {
         validateFields()
     }
     @IBAction func signUpAction(_ sender: Any) {
-        self.navigateWithXib(to: SignUpVC.self)
+        self.navigateWithXibAsRoot(to: SignUpVC.self)
     }
     @IBAction func changeLangAction(_ sender: Any) {
-        changeLanguage()
+        changeLangDirect()
     }
     
 }
@@ -45,7 +45,7 @@ class LoginVC: BaseVC {
 extension LoginVC: UIPickerViewDelegate, UIPickerViewDataSource {
 
     func setupView() {
-        languageButtonOutlet.titleLabel?.text = currentLanguage
+//        languageButtonOutlet.titleLabel?.text = currentLanguage
         pickerView.delegate = self
         pickerView.dataSource = self
         userTypeTextField.inputView = pickerView
@@ -147,31 +147,4 @@ extension LoginVC: UITextFieldDelegate {
         return true
     }
 
-}
-
-import Foundation
-
-extension Bundle {
-    private static var localizedBundle: Bundle?
-
-    // This function will set the language for the app
-    static func setLanguage(_ language: String) {
-        // Get the path to the specific language bundle
-        let path = Bundle.main.bundlePath + "/\(language).lproj"
-        if let languageBundle = Bundle(path: path) {
-            self.localizedBundle = languageBundle
-        } else {
-            self.localizedBundle = Bundle.main // Fallback to the main bundle if not found
-        }
-    }
-
-    // Override the localized method to return the correct resource path
-    static func localizedPath(forResource name: String?, ofType ext: String?) -> String? {
-        // If a localized bundle is set, return the localized resource path
-        if let bundle = self.localizedBundle {
-            return bundle.path(forResource: name, ofType: ext)
-        }
-        // Otherwise, fall back to the main bundle
-        return Bundle.main.path(forResource: name, ofType: ext)
-    }
 }

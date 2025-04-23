@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "You don't have Account ?"; ObjectID = "1ga-A0-0xM"; */
+"1ga-A0-0xM.text" = "ليس لديك حساب؟";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "7sJ-Qb-qGC"; */
+"7sJ-Qb-qGC.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Select Type"; ObjectID = "DLp-V1-8CL"; */
+"DLp-V1-8CL.text" = "حدد النوع";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "FQF-JI-UnR"; */
+"FQF-JI-UnR.text" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, and a number."; ObjectID = "GOq-Fw-D6x"; */
+"GOq-Fw-D6x.text" = "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل، وتحتوي على حرف كبير وحرف صغير ورقم.";
+
+/* Class = "UILabel"; text = "Enter Valid Email"; ObjectID = "PV1-lL-PLz"; */
+"PV1-lL-PLz.text" = "أدخل بريدًا إلكترونيًا صالحًا";
+
+/* Class = "UITextField"; placeholder = "Enter Your Email"; ObjectID = "eyE-1J-Gxs"; */
+"eyE-1J-Gxs.placeholder" = "أدخل بريدك الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Type"; ObjectID = "f8D-J0-sPD"; */
+"f8D-J0-sPD.placeholder" = "نوع";
+
+/* Class = "UIButton"; configuration.title = "AR"; ObjectID = "kmt-Ci-3qO"; */
+"kmt-Ci-3qO.configuration.title" = "AR";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kmt-Ci-3qO"; */
+"kmt-Ci-3qO.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "nI8-UI-lfv"; */
+"nI8-UI-lfv.normalTitle" = "التسجيل";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "xAn-d3-fDa"; */
+"xAn-d3-fDa.placeholder" = "أدخل كلمة المرور";

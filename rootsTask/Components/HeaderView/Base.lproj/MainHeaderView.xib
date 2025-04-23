@@ -37,8 +37,8 @@
                             <color key="tintColor" red="0.2901960784" green="0.32549019610000002" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                             <menu key="menu" id="1Fg-Qb-kaV">
                                 <children>
-                                    <command title="Item 2" id="IHZ-YZ-xTQ"/>
                                     <command title="Item 1" id="40g-HH-s1a"/>
+                                    <command title="Item 2" id="IHZ-YZ-xTQ"/>
                                 </children>
                             </menu>
                             <state key="normal" image="gearshape.fill" catalog="system"/>

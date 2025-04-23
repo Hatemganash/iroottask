@@ -71,6 +71,17 @@ extension BaseVC {
 
 
 extension BaseVC {
+    
+    func changeLangDirect(){
+        let newLang = Language.currentLanguage().contains(Language.Languages.ar) ? Language.Languages.en : Language.Languages.ar
+        Language.setAppLanguage(lang: newLang)
+        let sceneDelegate = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+        let window = sceneDelegate?.window
+        let loginVC = LoginVC(nibName: "LoginVC", bundle: nil)
+        window?.rootViewController = loginVC
+        window?.makeKeyAndVisible()
+    }
+    
     @objc
     func changeLanguage() {
         let current =
